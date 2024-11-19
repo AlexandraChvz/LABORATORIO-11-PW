@@ -8,7 +8,7 @@ Su propósito principal es personalizar el comportamiento del despliegue y las f
 2.¿Qué ventajas tiene desplegar en Vercel frente a un servidor
 tradicional?
 
-- Automatización : Conecta tu repositorio (GitHub, GitLab o Bitbucket) y cada push genera automáticamente un despliegue.
+-Automatización : Conecta tu repositorio (GitHub, GitLab o Bitbucket) y cada push genera automáticamente un despliegue.
 
 -Sin configuración de servidor : No necesitas gestionar servidores físicos o virtuales; Vercel se encarga de todo
 
@@ -19,4 +19,8 @@ tradicional?
 3.¿Qué propiedades del archivo vercel.json son necesarias para que una
 aplicación Express funcione correctamente en Vercel?
 
+Definir las rutas y configuraciones de las funciones 
+
 Se debe especificar el archivo de ejecución de la aplicación. El archivo de ejecución es src/app.js , donde se configura y ejecuta la aplicación Express.
+
+
